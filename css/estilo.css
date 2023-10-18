@@ -1,0 +1,55 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -- FOOTER -- */
+footer{
+    text-align: center;
+    margin: 20px;
+}
+footer a{
+    padding: 15px;
+}
+/* -- Cierro Footer -- */
+
+
+/* Carousel */
+    .carousel-margin{
+        margin-bottom: 30px;
+    }
+/* Cierro Carousel */
+
+
+.contenido{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* -- Cierro Mapas -- */
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* -- Planes -- */
+@media (min-width: 768px){
+    .planes{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (min-width: 1024px){
+    .planes{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+/* -- Cierro Planes -- */
