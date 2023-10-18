@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/* -- Texto -- */
+.texto{
+    font-family: 'Poppins', sans-serif;
+}
+/* -- Cierro Texto -- */
 
 /* -- FOOTER -- */
 footer{
@@ -22,11 +27,19 @@ footer a{
     }
 /* Cierro Carousel */
 
-
-.contenido{
-    margin-top: 50px;
-    margin-bottom: 50px;
+/* -- Página Quienes somos -- */
+@media (min-width: 400px){
+    .contenido{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .foto-grande{
+        width: 30%;
+    }
 }
+/* -- Cierro Página Quienes somos -- */
+
+
 
 /* -- Cierro Mapas -- */
 form{
