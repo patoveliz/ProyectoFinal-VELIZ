@@ -1,0 +1,15 @@
+{
+  "name": "proyecto_coder",
+  "version": "1.0.0",
+  "description": "Un sitio web sobre una empresa familiar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patricio Veliz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "PreEntrega3-VELIZ"
+  }
+}

@@ -5,51 +5,49 @@
 }
 
 /* -- Texto -- */
-.texto{
+.texto {
     font-family: 'Poppins', sans-serif;
 }
 /* -- Cierro Texto -- */
 
 /* -- FOOTER -- */
-footer{
+footer {
     text-align: center;
     margin: 20px;
-}
-footer a{
-    padding: 15px;
+
+    a {
+        padding: 15px;
+    }
 }
 /* -- Cierro Footer -- */
 
-
 /* Carousel */
-    .carousel-margin{
-        margin-bottom: 30px;
-    }
+.carousel-margin {
+    margin-bottom: 30px;
+}
 /* Cierro Carousel */
 
 /* -- Página Quienes somos -- */
-@media (min-width: 400px){
-    .contenido{
+@media (min-width: 400px) {
+    .contenido {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .foto-grande{
+    .foto-grande {
         width: 30%;
     }
 }
 /* -- Cierro Página Quienes somos -- */
 
-
-
 /* -- Cierro Mapas -- */
-form{
+form {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 /* -- Planes -- */
-@media (min-width: 768px){
-    .planes{
+@media (min-width: 768px) {
+    .planes {
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -57,10 +55,10 @@ form{
         justify-content: center;
         align-items: center;
     }
-
 }
-@media (min-width: 1024px){
-    .planes{
+
+@media (min-width: 1024px) {
+    .planes {
         flex-direction: row;
         justify-content: space-evenly;
     }
