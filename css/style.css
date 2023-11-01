@@ -5,27 +5,43 @@
   padding: 0;
 }
 
-/* -- Texto -- */
-.texto {
-  font-family: "Poppins", sans-serif;
+header {
+  background-color: #038C8C;
 }
 
+.logo {
+  background-color: lightseagreen;
+  color: white;
+  font-weight: 400;
+  padding: 0.2em;
+  border-radius: 15em;
+}
+
+/* -- Texto -- */
+@media (min-width: 400px) {
+  .texto {
+    font-family: "Poppins", sans-serif;
+  }
+}
 /* -- Cierro Texto -- */
 /* -- FOOTER -- */
-footer {
-  text-align: center;
-  margin: 20px;
+@media (min-width: 400px) {
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #038C8C;
+  }
+  footer a {
+    padding: 15px;
+  }
 }
-footer a {
-  padding: 15px;
-}
-
 /* -- Cierro Footer -- */
 /* Carousel */
-.carousel-margin {
-  margin-bottom: 30px;
+@media (min-width: 400px) {
+  .carousel-margin {
+    margin-bottom: 30px;
+  }
 }
-
 /* Cierro Carousel */
 /* -- Página Quienes somos -- */
 @media (min-width: 400px) {
@@ -39,11 +55,6 @@ footer a {
 }
 /* -- Cierro Página Quienes somos -- */
 /* -- Cierro Mapas -- */
-form {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 /* -- Planes -- */
 @media (min-width: 768px) {
   .planes {
@@ -62,5 +73,11 @@ form {
   }
 }
 /* -- Cierro Planes -- */
+@media (min-width: 400px) {
+  form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
