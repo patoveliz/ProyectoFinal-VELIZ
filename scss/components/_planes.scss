@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .planes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .planes {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
